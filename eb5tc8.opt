@@ -1,0 +1,15 @@
+
+SECTIONS
+{
+        DATOS:
+        {
+                .=$50;
+                eb5tc8.o(DSCT)
+        }
+
+        PROGRAMA:
+        {
+                .=$100;
+                eb5tc8.o(PSCT)
+        }
+}

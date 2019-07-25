@@ -1,0 +1,15 @@
+
+SECTIONS
+{
+        DATOS:
+        {
+                .=$30;
+                cnszvic8.o(DSCT)
+        }
+
+        PROGRAMA:
+        {
+                .=$100;
+                cnszvic8.o(PSCT)
+        }
+}

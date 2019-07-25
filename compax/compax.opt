@@ -1,0 +1,19 @@
+
+SECTIONS
+{
+        DATOS:
+        {
+                .=$30;
+                compax.o(DSCT)
+                display.o(DSCT)
+                rs232.o(DSCT)
+        }
+
+        PROGRAMA:
+        {
+                .=$100;
+                compax.o(PSCT)
+                display.o(PSCT)
+                rs232.o(PSCT)
+        }
+}
